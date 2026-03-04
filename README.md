@@ -1,4 +1,6 @@
-﻿This dataset was generated from LSL/XDF recordings. Converted to bids with instructions and code [presented here](https://github.com/LMBooth/QT-arithmetic_study/tree/main/conversion_package)
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007262-blue)](https://doi.org/10.82901/nemar.on007262)
+
+This dataset was generated from LSL/XDF recordings. Converted to bids with instructions and code [presented here](https://github.com/LMBooth/QT-arithmetic_study/tree/main/conversion_package)
 
 - Original recordings are stored under sourcedata/xdf/ as .xdf files (non-BIDS).
 - EEG was converted to BrainVision format (.vhdr/.eeg/.vmrk) under each sub-*/eeg/.
