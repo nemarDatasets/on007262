@@ -1,20 +1,68 @@
 {
   "version": "2.0",
-  "dataset_id": "on007262",
-  "source": "openneuro",
-  "source_id": "ds007262",
+  "pipeline_stage": "validated",
   "title": "Cognitive Workload 8-level arithmetic",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Matthew Barras": {},
     "Liam Booth": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
-      "doi": "10.18112/openneuro.ds007262.v1.0.6",
-      "relationType": "IsIdenticalTo"
+      "identifier": "https://github.com/nemarDatasets/on007262",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007262",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.on007262",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "description": "This dataset comprises multimodal neurophysiological recordings from 18 participants performing an 8-level arithmetic task designed to manipulate cognitive workload. The study integrated 19-channel EEG, 3-lead ECG, and pupillometry data synchronized via Lab Streaming Layer, with task difficulty systematically varied across seven difficulty ranges plus baseline. Raw data were converted from Lab Streaming Layer/XDF format to BIDS-compliant BrainVision format with detailed event annotations and physiological recordings.",
+  "methods_description": "Data were collected using a combined mobile EEG+ECG system with 19-channel 10-20 montage (250 Hz sampling, Ag/AgCl electrodes, linked-ear reference) and Pupil Labs Pupil Core eye tracking synchronized via Lab Streaming Layer. Participants completed a 60-second baseline followed by 70 arithmetic questions (10 per difficulty level) presented for 6 seconds each, with difficulty defined by Q-value ranges. ECG was recorded with 3-lead configuration, and pupillometry data were captured asynchronously with per-sample timestamps.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "cognitive workload"
+    },
+    {
+      "term": "arithmetic task"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    }
+  ],
+  "source_hash": "f61a6cb8901a2bd16798d7980356928500068e7e6a2a8ebb9dfc05dceea80e80"
 }
