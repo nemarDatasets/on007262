@@ -10,6 +10,11 @@
   },
   "related_identifiers": [
     {
+      "identifier": "10.18112/openneuro.ds007262.v1.0.6",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    },
+    {
       "identifier": "https://github.com/nemarDatasets/on007262",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
