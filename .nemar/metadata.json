@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007262",
+  "source": "openneuro",
+  "source_id": "ds007262",
+  "title": "Cognitive Workload 8-level arithmetic",
+  "authors": {
+    "Matthew Barras": {},
+    "Liam Booth": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "doi": "10.18112/openneuro.ds007262.v1.0.6",
+      "relationType": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
