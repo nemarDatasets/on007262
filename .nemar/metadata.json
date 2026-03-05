@@ -1,13 +1,50 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Cognitive Workload 8-level arithmetic",
+  "description": "This dataset comprises multimodal neurophysiological recordings from 18 participants performing an 8-level arithmetic task designed to manipulate cognitive workload. The dataset includes 19-channel EEG, 3-lead ECG, and pupillometry data synchronized via Lab Streaming Layer, with 8 difficulty levels (including baseline). Raw data were converted from Lab Streaming Layer/XDF format to BIDS-compliant BrainVision format with comprehensive event annotations and physiological recordings.",
+  "methods_description": "Data were collected using a combined mobile EEG+ECG system (19-channel 10-20 montage, 250 Hz sampling, Ag/AgCl electrodes with linked-ear reference) and Pupil Labs Pupil Core eye tracker synchronized via Lab Streaming Layer. Participants completed a 60-second baseline followed by 70 arithmetic questions (10 per difficulty level) presented for 6 seconds each, with difficulty defined by Q-value ranges. ECG was recorded with 3-lead configuration and pupillometry via infrared eye tracking with asynchronous sampling.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Matthew Barras": {},
     "Liam Booth": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "cognitive workload"
+    },
+    {
+      "term": "arithmetic task"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "electrocardiography"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "Lab Streaming Layer"
+    },
+    {
+      "term": "baseline condition"
+    },
+    {
+      "term": "task difficulty"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007262.v1.0.6",
@@ -43,34 +80,17 @@
       "identifier": "10.1109/ACCESS.2021.3079992",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.82901/nemar.on007262",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "description": "This dataset comprises multimodal neurophysiological recordings from 18 participants performing an 8-level arithmetic task with systematically varied cognitive workload. The dataset includes 19-channel EEG, 3-lead ECG, and pupillometry data synchronized via Lab Streaming Layer, with task events encoded by difficulty level. Raw data were converted from Lab Streaming Layer/XDF format to BIDS-compliant BrainVision format, providing a resource for investigating neural and physiological correlates of cognitive workload during arithmetic problem-solving.",
-  "methods_description": "EEG was recorded from 19 channels in a 10-20 montage (250 Hz sampling rate) using Ag/AgCl electrodes with linked-ear reference on a mobile EEG system. ECG was captured with 3-lead configuration on the same system. Pupil Labs Pupil Core eye tracking with infrared illuminators was synchronized via Lab Streaming Layer. Participants completed a baseline period (60 seconds) followed by 70 arithmetic questions (10 at each of 7 difficulty levels), each presented for 6 seconds. Task difficulty was defined using Q-value ranges and randomized across trials.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "cognitive workload"
-    },
-    {
-      "term": "arithmetic task"
-    },
-    {
-      "term": "pupillometry"
-    },
-    {
-      "term": "electrocardiography"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    }
   ],
   "source_hash": "f61a6cb8901a2bd16798d7980356928500068e7e6a2a8ebb9dfc05dceea80e80"
 }
